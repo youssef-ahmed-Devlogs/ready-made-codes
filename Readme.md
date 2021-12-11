@@ -1,5 +1,3 @@
-
-
 <h2>** To Install Nodejs Any Version **</h2>
 <ol>
     <li>
@@ -19,7 +17,6 @@
 Read More...
 </a>
 
-
 <hr/>
 
 <h2>** To Open Xampp **</h2>
@@ -29,4 +26,3 @@ Read More...
 
 <h2>** To Give Permission **</h2>
 <h4>sudo chmod 777 ./Foldername</h4>
-
