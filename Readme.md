@@ -1,12 +1,4 @@
-<h2>** To Open Xampp **</h2>
-<h4>sudo '/opt/lampp/manager-linux-x64.run'</h4>
 
-<hr/>
-
-<h2>** To Give Permission **</h2>
-<h4>sudo chmod 777 ./Foldername</h4>
-
-<hr/>
 
 <h2>** To Install Nodejs Any Version **</h2>
 <ol>
@@ -26,3 +18,15 @@
 <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">
 Read More...
 </a>
+
+
+<hr/>
+
+<h2>** To Open Xampp **</h2>
+<h4>sudo '/opt/lampp/manager-linux-x64.run'</h4>
+
+<hr/>
+
+<h2>** To Give Permission **</h2>
+<h4>sudo chmod 777 ./Foldername</h4>
+
