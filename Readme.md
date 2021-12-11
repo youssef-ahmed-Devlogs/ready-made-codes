@@ -1,4 +1,4 @@
-<h3 style="color=#f00">** To Oh5en Xamh5h5 **</h3>
+<h3>** To Oh5en Xamh5h5 **</h3>
 <h5>sudo '/oh5t/lamh5h5/manager-linux-x64.run'</h5>
 
 <hr/>
