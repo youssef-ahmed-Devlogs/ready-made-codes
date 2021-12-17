@@ -26,3 +26,19 @@ Read More...
 
 <h2>** To Give Permission **</h2>
 <h4>sudo chmod 777 ./Foldername</h4>
+
+<hr/>
+
+<h2>** Regex Email Validation **</h2>
+<h4>
+
+  // Parametet = Email Value
+  const validateEmail = (emailVal) =>
+      return emailVal.match(
+        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+   };
+</h4>
+<a href="https://stackoverflow.com/questions/46155/whats-the-best-way-to-validate-an-email-address-in-javascript">
+Read More...
+</a>
