@@ -98,13 +98,13 @@ Read More...
         
         <div>
             NameVirtualHost www.youssef.com:80
-            <VirtualHost www.youssef.com:80>
+            &lt;VirtualHost www.youssef.com:80&gt;
                 ServerName www.youssef.com
                 DocumentRoot /var/www/youssef.com
                 ServerAlias youssef.com
                 ServerAlias youssef
 
-            </VirtualHost>
+            &lt;/VirtualHost &gt;
         </div>
     </li>
     <li>
