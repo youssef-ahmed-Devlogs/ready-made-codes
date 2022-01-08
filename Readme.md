@@ -50,6 +50,23 @@ Read More...
 
 <h2>** To Install PHP Module On Linux **</h2>
 <h4>sudo apt install php libapache2-mod-php php-mysql</h4>
+<h4>PHP Tools</h4>
+<ul>
+    <li>apt-get install php-mysql</li>
+    <li>apt-get install php-curl</li>
+    <li>apt-get install php-gd</li>
+    <li>apt-get install php-intl</li>
+    <li>apt-get install php-pear</li>
+    <li>apt-get install php-imagick</li>
+    <li>apt-get install php-imap</li>
+    <li>apt-get install php-memcache</li>
+    <li>apt-get install php-ps</li>
+    <li>apt-get install php-pspell</li>
+    <li>apt-get install php-snmp</li>
+    <li>apt-get install php-tidy</li>
+    <li>apt-get install php-xmlrpc</li>
+    <li>apt-get install php-xsl</li>
+</ul>
 
 <hr/>
 
