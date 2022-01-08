@@ -33,3 +33,43 @@ Read More...
 <a href="https://stackoverflow.com/questions/46155/whats-the-best-way-to-validate-an-email-address-in-javascript">
 Read More...
 </a>
+
+<h2>** To Install Mysql On Linux **</h2>
+<h4>sudo apt-get install mysql-server</h4>
+<h4>Any Versions</h4>
+<h4>sudo apt-get install mysql-server-version</h4>
+
+<hr/>
+
+
+
+<h2>** To Install Apache2 On Linux **</h2>
+<h4>sudo apt-get install apache2</h4>
+
+<hr/>
+
+<h2>** To Install PHP Module On Linux **</h2>
+<h4>sudo apt install php libapache2-mod-php php-mysql</h4>
+
+<hr/>
+
+<h2>** To Activate Re write In Linux **</h2>
+<h4>sudo apt a2enmod rewrite</h4>
+
+<hr/>
+
+<h2>** To Restart Apache2 In Linux **</h2>
+<h4>sudo apt service apache2 restart</h4>
+<h4>OR</h4>
+<h4>sudo apt systemctl restart apache2</h4>
+
+<hr/>
+    
+<h2>** To Open File To Edit**</h2>
+<h4>gedit file.txt</h4>
+
+<hr/>
+    
+    
+
+
