@@ -65,8 +65,9 @@ Read More...
 
 <hr/>
     
-<h2>** To Open File To Edit**</h2>
+<h2>** To Open File To Edit AND If File Not Existing Create File First**</h2>
 <h4>gedit file.txt</h4>
+
 
 <hr/>
     
