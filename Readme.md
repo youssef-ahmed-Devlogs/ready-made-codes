@@ -89,7 +89,14 @@ Read More...
 <hr/>
 
 <h2>** To Create Virtual Host On Linux**</h2>
-<div>
+
+<ol>
+    <li>cd /etc/apache2/sites-enabled</li>
+    <li>
+        <div>
+            gedit 000-default.conf
+        </div>
+        <div>
             NameVirtualHost www.youssef.com:80
             <VirtualHost www.youssef.com:80>
                 ServerName www.youssef.com
@@ -99,7 +106,15 @@ Read More...
 
             </VirtualHost>
         </div>
-
+        
+    </li>
+    <li>
+        <div>gedit /etc/hosts</div>
+        <div>
+            127.0.1.1 www.youssef.com
+        </div>
+    </li>
+</ol>
 
 
 
