@@ -87,6 +87,39 @@ Read More...
 
 
 <hr/>
+
+<h2>** To Create Virtual Host On Linux**</h2>
+<ol>
+    <li>cd /etc/apache2/sites-enabled</li>
+    <li>
+        <div>
+            gedit 000-default.conf
+        </div>
+        
+        <p>
+            NameVirtualHost www.youssef.com:80
+            <VirtualHost www.youssef.com:80>
+                ServerName www.youssef.com
+                DocumentRoot /var/www/youssef.com
+                ServerAlias youssef.com
+                ServerAlias youssef
+
+            </VirtualHost>
+        </p>
+    </li>
+    <li>
+        <div>gedit /etc/hosts</div>
+        <div>
+            127.0.1.1 www.youssef.com
+        
+        </div>
+    </li>
+</ol>
+
+
+
+
+<hr/>
     
     
 
