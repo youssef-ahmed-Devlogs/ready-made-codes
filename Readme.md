@@ -26,7 +26,7 @@ Read More...
 
 <h2>** To Give Permission **</h2>
 <h4>sudo chmod 777 ./Foldername</h4>
-
+<h4>chmod -R 775 /var/www</h4>
 <hr/>
 
 <h2>** Regex Email Validation **</h2>
