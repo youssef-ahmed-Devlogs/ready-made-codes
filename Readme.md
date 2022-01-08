@@ -96,7 +96,7 @@ Read More...
             gedit 000-default.conf
         </div>
         
-        <p>
+        <div>
             NameVirtualHost www.youssef.com:80
             <VirtualHost www.youssef.com:80>
                 ServerName www.youssef.com
@@ -105,7 +105,7 @@ Read More...
                 ServerAlias youssef
 
             </VirtualHost>
-        </p>
+        </div>
     </li>
     <li>
         <div>gedit /etc/hosts</div>
