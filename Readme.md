@@ -76,11 +76,25 @@ Read More...
     sudo /opt/lampp/xampp stop
     sudo /opt/lampp/xampp start
     
-    [ issua ]
+    [ issue ]
     netstat: command not found
     
     [ solve ]
     sudo apt install net-tools
+</h4>
+
+<hr/>
+
+
+<h2>** Laravel issue permition on linux **</h2>
+<h4>
+
+    [ issue ]
+    The stream or file "/opt/lampp/htdocs/eCommerce/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission           denied The exception occurred while attempting to log: The stream or file "/opt/lampp/htdocs/e................bla bla bla
+    
+    [ solve ]
+    sudo chmod -R ugo+rw storage/ bootstrap/cache/
+    
 </h4>
 
 <hr/>
