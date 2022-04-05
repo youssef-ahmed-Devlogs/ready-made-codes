@@ -68,6 +68,20 @@ Read More...
     </VirtualHost>
 
 </h4>
+<h4>
+    sudo /opt/lampp/xampp restart
+    
+    or
+    
+    sudo /opt/lampp/xampp stop
+    sudo /opt/lampp/xampp start
+    
+    [ issua ]
+    netstat: command not found
+    
+    [ solve ]
+    sudo apt install net-tools
+</h4>
 
 <hr/>
     
