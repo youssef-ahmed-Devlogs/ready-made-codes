@@ -90,7 +90,7 @@ Read More...
 <h4>
 
     [ issue ]
-    The stream or file "/opt/lampp/htdocs/eCommerce/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission           denied The exception occurred while attempting to log: The stream or file "/opt/lampp/htdocs/e................bla bla bla
+    The stream or file "/opt/lampp/htdocs/eCommerce/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission <br>           denied The exception occurred while attempting to log: The stream or file "/opt/lampp/htdocs/e................bla bla bla
     
     [ solve ]
     sudo chmod -R ugo+rw storage/ bootstrap/cache/
