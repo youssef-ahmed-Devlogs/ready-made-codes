@@ -49,6 +49,27 @@ Read More...
 <h4>sudo mv composer.phar /usr/local/bin/composer</h4>
 
 <hr/>
+
+
+<h2>** Make a virtual domain **</h2>
+<h4>sudo nano /etc/hosts</h4>
+<h4>open [ /opt/lampp/etc/httpd.conf ] with text editor, and remove hash[ # ] from [ #Include etc/extra/httpd-vhosts.conf ]</h4>
+<h4>open [ /opt/lampp/etc/extra/httpd-vhosts.conf ] with text editor</h4>
+<h4>
+
+    <VirtualHost *:80>
+        DocumentRoot "/opt/lampp/htdocs"
+        ServerName localhost
+    </VirtualHost>
+
+    <VirtualHost *:80>
+        DocumentRoot "/opt/lampp/htdocs/eCommerce/public"
+        ServerName eCommerce.com
+    </VirtualHost>
+
+</h4>
+
+<hr/>
     
     
 
