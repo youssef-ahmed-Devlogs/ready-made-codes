@@ -38,6 +38,17 @@ Read More...
 <h4>sudo chmod +x filename</h4>
 
 <hr/>
+
+
+<h2>** set php path **</h2>
+<h4>sudo ln -s /opt/lampp/bin/php-8.0.17 /usr/bin/php</h4>
+
+<hr/>
+
+<h2>** set composer path **</h2>
+<h4>sudo mv composer.phar /usr/local/bin/composer</h4>
+
+<hr/>
     
     
 
