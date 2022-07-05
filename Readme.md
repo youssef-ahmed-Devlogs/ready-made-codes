@@ -100,6 +100,14 @@ Read More...
 
 <hr/>
     
-    
+[ encrypt & decrypt ]
+$data = 'youssef ahmed sayed';
+$key = 'asdasdasd';
+$iv = '123456789123456h';
 
+$encryotedData = openssl_encrypt($data, 'aes-128-xts', $key, 0, $iv);
+echo $encryotedData . '<br>';
+
+$decryotedData = openssl_decrypt($encryotedData, 'aes-128-xts', $key, 0, $iv);
+echo $decryotedData . '<br>';
 
