@@ -26,6 +26,9 @@ Read More...
 <hr/>
 
 <h2>** To Give Permission **</h2>
+
+<h4>vscode always ask for permission to save --- sudo chown -R $USER:$USER .</h4>
+<a href="https://stackoverflow.com/questions/51004206/vscode-always-ask-for-permission-to-save">vscode always ask for permission to save</a>
 <h4>sudo chmod 777 ./Foldername</h4>
 <h4>chmod -R 775 /var/www</h4>
 <hr/>
