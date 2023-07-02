@@ -4,44 +4,44 @@
 
 <p>
 
-sudo apt-get install apache2
-sudo apt-get install php libapache2-mod-php
+sudo apt-get install apache2 <br>
+sudo apt-get install php libapache2-mod-php <br>
 
-To restart apache2:-
+To restart apache2:- <br>
 
-sudo service apache2 restart
+sudo service apache2 restart <br>
 
-Inside [/var/www/html] change user permissions:-
+Inside [/var/www/html] change user permissions:- <br>
 
-sudo chown username:username -R ./
+sudo chown username:username -R ./ <br>
 
-sudo gedit /etc/apache2/envvars
+sudo gedit /etc/apache2/envvars <br>
 
-Then change this values to the username:-
+Then change this values to the username:- <br>
 
-export APACHE_RUN_USER=username
-export APACHE_RUN_GROUP=username
+export APACHE_RUN_USER=username <br>
+export APACHE_RUN_GROUP=username <br>
 
-Install MySQL:-
+Install MySQL:- <br>
 
-sudo apt-get install mysql-server
+sudo apt-get install mysql-server <br>
 
-Check MySQL status:-
+Check MySQL status:- <br>
 
-sudo service mysql status
+sudo service mysql status <br>
 
-Install phpmyadmin:-
+Install phpmyadmin:- <br>
 
-sudo apt-get install phpmyadmin
+sudo apt-get install phpmyadmin <br>
 
-Errors while login to phpmyadmin:-
+Errors while login to phpmyadmin:- <br>
 
-*Cannot log in to the MySQL server*
+*Cannot log in to the MySQL server* <br>
 *mysqli::real_connect(): (HY000/1698): Access denied for user 'root'@'localhost'*
+<br>
+The solution:- <br>
 
-The solution:-
-
-sudo mysql
+sudo mysql<br>
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 
 
