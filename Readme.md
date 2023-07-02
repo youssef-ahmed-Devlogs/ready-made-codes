@@ -1,6 +1,54 @@
 <h2>Web Development Setup on Linux Ubuntu</h2>
 <a href="https://www.youtube.com/watch?v=nQVvtC_V1ZQ&ab_channel=TheCodeholic">Watch Video</a>
 
+
+<p>
+
+sudo apt-get install apache2
+sudo apt-get install php libapache2-mod-php
+
+To restart apache2:-
+
+sudo service apache2 restart
+
+Inside [/var/www/html] change user permissions:-
+
+sudo chown username:username -R ./
+
+sudo gedit /etc/apache2/envvars
+
+Then change this values to the username:-
+
+export APACHE_RUN_USER=username
+export APACHE_RUN_GROUP=username
+
+Install MySQL:-
+
+sudo apt-get install mysql-server
+
+Check MySQL status:-
+
+sudo service mysql status
+
+Install phpmyadmin:-
+
+sudo apt-get install phpmyadmin
+
+Errors while login to phpmyadmin:-
+
+*Cannot log in to the MySQL server*
+*mysqli::real_connect(): (HY000/1698): Access denied for user 'root'@'localhost'*
+
+The solution:-
+
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+
+
+
+
+</p>
+
 <hr/>
 
 
