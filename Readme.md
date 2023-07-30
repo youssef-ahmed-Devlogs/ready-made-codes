@@ -16,14 +16,14 @@ sudo service apache2 restart <br>
 
 Inside [/var/www/html] change user permissions:- <br>
 
-sudo chown username:username -R ./ <br>
+sudo chown {username}:{username} -R ./ <br>
 
 sudo gedit /etc/apache2/envvars <br>
 
 Then change this values to the username:- <br>
 
-export APACHE_RUN_USER=username <br>
-export APACHE_RUN_GROUP=username <br>
+export APACHE_RUN_USER={username} <br>
+export APACHE_RUN_GROUP={username} <br>
 
 Install MySQL:- <br>
 
