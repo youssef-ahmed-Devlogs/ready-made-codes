@@ -20,10 +20,22 @@ sudo chown {username}:{username} -R ./ <br>
 
 sudo gedit /etc/apache2/envvars <br>
 
-Then change this values to the username:- <br>
+Then change this values to your username:- <br>
 
 export APACHE_RUN_USER={username} <br>
 export APACHE_RUN_GROUP={username} <br>
+
+
+sudo gedit /etc/apache2/mods-available/dir.conf
+
+Then change this order of files:- <br>
+
+<strong>DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm</strong> <br>
+
+<strong>TO</strong> <br>
+
+<strong>DirectoryIndex  index.cgi index.pl index.php index.html index.xhtml index.htm</strong> <br>
+
 
 Install MySQL:- <br>
 
