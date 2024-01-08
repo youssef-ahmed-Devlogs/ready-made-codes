@@ -5,7 +5,6 @@
 <h2>Web Development Setup on Linux Ubuntu</h2>
 <a href="https://www.youtube.com/watch?v=nQVvtC_V1ZQ&ab_channel=TheCodeholic">Watch Video</a>
 
-
 <p>
 
 sudo apt-get install apache2 <br>
