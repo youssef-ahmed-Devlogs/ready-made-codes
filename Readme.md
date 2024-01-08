@@ -70,14 +70,14 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 
 <h2>** To Install Nodejs Any Version **</h2>
 <ol>
-    <li>
-        <h4>curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -</h4>
+    <li>        
+        <h4>
+        curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
+        sudo apt-get install -y nodejs
+        </h4>
     </li>
-    <li>
-        <h4>sudo apt-get install -y nodejs</h4>
-    </li> 
 </ol>
-<a href="https://github.com/nodesource/distributions/blob/master/README.md">Read More...</a>
+<a href="https://github.com/nodesource/distributions/blob/master/README.md#using-ubuntu-3">Read More...</a>
 
 
 <hr/>
