@@ -8,7 +8,6 @@
 <p>
 
 
-
 sudo apt-get install apache2 <br>
 sudo apt-get install php libapache2-mod-php <br>
 
