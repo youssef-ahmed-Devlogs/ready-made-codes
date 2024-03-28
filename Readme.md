@@ -65,6 +65,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 
 </p>
 
+<a href="https://www.thedataops.org/how-to-upgrade-php-version-from-8-1-to-8-2-in-ubuntu/">Upgrade To PHP 8.2</a>
+
 <hr/>
 
 
