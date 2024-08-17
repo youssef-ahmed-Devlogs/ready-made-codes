@@ -1,16 +1,13 @@
-
 <h2>Install latest version of git</h2>
 <a href="https://askubuntu.com/questions/568591/how-do-i-install-the-latest-version-of-git-with-apt">Read More</a>
- 
 
 <h2>Web Development Setup on Linux Ubuntu</h2>
 <a href="https://www.youtube.com/watch?v=nQVvtC_V1ZQ&ab_channel=TheCodeholic">Watch Video</a>
 
-
 <p>
 
-
-sudo apt-get install apache2 <br>
+sudo apt-get install apache2
+<br>
 sudo apt-get install php libapache2-mod-php <br>
 
 To restart apache2:- <br>
@@ -28,7 +25,6 @@ Then change this values to your username:- <br>
 export APACHE_RUN_USER={username} <br>
 export APACHE_RUN_GROUP={username} <br>
 
-
 sudo gedit /etc/apache2/mods-available/dir.conf
 
 Then change this order of files:- <br>
@@ -37,8 +33,7 @@ Then change this order of files:- <br>
 
 <strong>TO</strong> <br>
 
-<strong>DirectoryIndex  index.cgi index.pl index.php index.html index.xhtml index.htm</strong> <br>
-
+<strong>DirectoryIndex index.cgi index.pl index.php index.html index.xhtml index.htm</strong> <br>
 
 Install MySQL:- <br>
 
@@ -54,16 +49,13 @@ sudo apt-get install phpmyadmin <br>
 
 Errors while login to phpmyadmin:- <br>
 
-*Cannot log in to the MySQL server* <br>
-*mysqli::real_connect(): (HY000/1698): Access denied for user 'root'@'localhost'*
+_Cannot log in to the MySQL server_ <br>
+_mysqli::real_connect(): (HY000/1698): Access denied for user 'root'@'localhost'_
 <br>
 The solution:- <br>
 
 sudo mysql<br>
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
-
-
-
 
 </p>
 
@@ -71,18 +63,14 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 
 <hr/>
 
-
 <h2>** To Install Nodejs Any Version **</h2>
 
-           
         <h4>
         curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\
         sudo apt-get install -y nodejs
         </h4>
-    
 
 <a href="https://github.com/nodesource/distributions/blob/master/README.md#using-ubuntu-3">Read More...</a>
-
 
 <hr/>
 
@@ -117,7 +105,6 @@ Read More...
 
 <hr/>
 
-
 <h2>** set php path **</h2>
 <h4>sudo ln -s /opt/lampp/bin/php-8.0.17 /usr/bin/php</h4>
 
@@ -127,7 +114,6 @@ Read More...
 <h4>sudo mv composer.phar /usr/local/bin/composer</h4>
 
 <hr/>
-
 
 <h2>** Make a virtual domain **</h2>
 <h4>sudo nano /etc/hosts</h4>
@@ -163,18 +149,16 @@ Read More...
 
 <hr/>
 
-
 <h2>** Laravel issue permition on linux **</h2>
 <h4>
 
     [ issue ]
-    The stream or file "/opt/lampp/htdocs/eCommerce/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission   
+    The stream or file "/opt/lampp/htdocs/eCommerce/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission
     denied The exception occurred while attempting to log: The stream or file "/opt/lampp/htdocs/e................bla bla bla</div>
-    
+
     [ solve ]
     sudo chmod -R ugo+rw storage/ bootstrap/cache/
-    
+
 </h4>
 
 <hr/>
-
