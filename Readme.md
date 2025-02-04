@@ -2,7 +2,7 @@
 <a href="https://askubuntu.com/questions/568591/how-do-i-install-the-latest-version-of-git-with-apt">Read More</a>
 
 <h2>Web Development Setup on Linux Ubuntu</h2>
-<a href="https://www.youtube.com/watch?v=nQVvtC_V1ZQ&ab_channel=TheCodeholic">Watch Video</a>
+<a href="https://www.youtube.com/watch?v=nQVvtC_V1ZQ&ab_channel=TheCodeholic">Watch Video </a>
 
 <p>
 
